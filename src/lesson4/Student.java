@@ -41,8 +41,11 @@ class StudentTest{
         person3.avarenge_value_economic = 4.92;
         person3.averenge_value_forign_language = 4.99;
 
-        System.out.println("Средняя арифметическая оценка " + person1.firstname + " " + person1.lastname + " имеет значение равное = " + ((person1.avarenge_value_math + person1.avarenge_value_economic + person1.averenge_value_forign_language)/3));
-        System.out.println("Средняя арифметическая оценка " + person2.firstname + " " + person2.lastname + " имеет значение равное = " + (person2.avarenge_value_math + person2.avarenge_value_economic + person2.averenge_value_forign_language)/3);
-        System.out.println("Средняя арифметическая оценка " + person3.firstname + " " + person3.lastname + " имеет значение равное = " + (person3.avarenge_value_math + person3.avarenge_value_economic + person3.averenge_value_forign_language)/3);
+        System.out.println("Средняя арифметическая оценка " + person1.firstname + " " + person1.lastname + " имеет значение равное = "
+                + ((person1.avarenge_value_math + person1.avarenge_value_economic + person1.averenge_value_forign_language)/3));
+        System.out.println("Средняя арифметическая оценка " + person2.firstname + " " + person2.lastname + " имеет значение равное = "
+                + (person2.avarenge_value_math + person2.avarenge_value_economic + person2.averenge_value_forign_language)/3);
+        System.out.println("Средняя арифметическая оценка " + person3.firstname + " " + person3.lastname + " имеет значение равное = "
+                + (person3.avarenge_value_math + person3.avarenge_value_economic + person3.averenge_value_forign_language)/3);
     }
 }
